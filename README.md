@@ -1,11 +1,7 @@
-# Reuchne Tooth Fairy Clinic — Full-Stack Dental Management System
+# Reuchne Tooth Fairy Clinic — Full-Stack Dental Services Booking & Management System
 
-## 🌸 Overview
-A complete dental clinic management system with a soft pink & white professional theme.
 
----
-
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Requirements
 - PHP 7.4+ (PHP 8.x recommended)
@@ -32,8 +28,8 @@ Or copy-paste the full contents of `database.sql` into your SQL editor.
 Edit `includes/config.php`:
 ```php
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');        // your MySQL username
-define('DB_PASS', '');            // your MySQL password
+define('DB_USER', 'root');        
+define('DB_PASS', '');            
 define('DB_NAME', 'reuchne_clinic');
 define('BASE_URL', 'http://localhost/reuchne-clinic');
 ```
@@ -68,14 +64,14 @@ Visit: `http://localhost/reuchne-clinic`
 
 ---
 
-## 🔑 Default Login Credentials
+##  Default Login Credentials
 
 | Role    | Email                          | Password     |
 |---------|-------------------------------|--------------|
 | Admin   | admin@reuchneclinic.com        | password     |
 | Doctor  | drbermas@reuchneclinic.com     | password     |
 
-> ⚠️ **IMPORTANT:** Change these passwords immediately after setup!
+
 > The default seeded password hash corresponds to the string `password`.
 
 To change, go to the login page and use the profile settings, or run:
@@ -85,7 +81,7 @@ UPDATE users SET password = '$2y$10$YOUR_NEW_BCRYPT_HASH' WHERE id = 1;
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 reuchne-clinic/
@@ -192,31 +188,22 @@ VALUES ('Service Name', 'Description', 1500.00, 60, 'Category', '🦷');
 
 ---
 
-## 🔒 Security Notes
 
-1. Change all default passwords after setup
-2. Keep `includes/` protected via `.htaccess`
-3. Use HTTPS in production (`BASE_URL` should be `https://`)
-4. Regularly backup the database
-5. Consider adding CSRF tokens to forms for production use
-
----
-
-## 🌸 Features Summary
+##  Features Summary
 
 | Feature | Details |
 |---------|---------|
-| 🎨 Theme | Soft pink & white, professional |
-| 🏥 Roles | Admin, Doctor, Patient |
-| 📅 Booking | Calendar UI, time slots, double-booking prevention |
-| 💳 Payments | Cash, GCash, Maya, Credit Card, Insurance |
-| 🧾 Receipts | Printable receipt generator |
-| 📊 Revenue | Charts by day/month/service/doctor |
-| 📢 Announcements | Doctor posts to all patients |
-| 🔔 Notifications | Real-time in-app notifications |
-| 📋 Medical History | Patient-managed health records |
-| 👩‍⚕️ Doctor Profile | Dedicated page with gallery |
+|  Roles | Admin, Doctor, Patient |
+|  Booking | Calendar UI, time slots, double-booking prevention |
+|  Payments | Cash, GCash, Maya, Credit Card, Insurance |
+|  Receipts | Printable receipt generator |
+|   Revenue | Charts by day/month/service/doctor |
+|  Announcements | Doctor posts to all patients |
+|  Notifications | Real-time in-app notifications |
+|  Medical History | Patient-managed health records |
+|  Doctor Profile | Dedicated page with gallery |
 
 ---
 
-Made with 💗 for Reuchne Tooth Fairy Clinic
+© 2025 Reuchne Tooth Fairy Clinic. All rights reserved.
+Developed by Kyle Dominic Yap.

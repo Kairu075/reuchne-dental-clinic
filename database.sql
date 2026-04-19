@@ -209,7 +209,7 @@ INSERT INTO services (name, description, price, duration_minutes, category, icon
 ('Dental Veneers', 'Thin porcelain shells that transform the appearance of your smile.', 12000.00, 90, 'Cosmetic', '💎'),
 ('Dentures', 'Custom removable dentures to replace missing teeth comfortably.', 15000.00, 60, 'Prosthetic', '🦷'),
 ('Pediatric Dentistry', 'Gentle dental care specially designed for children of all ages.', 800.00, 45, 'Preventive', '🧒'),
-('Monthly Orthodontics Braces Adjustment', 'Monthly adjustment visit for orthodontic braces patients. Maintenance to ensure proper alignment and comfort.', 800.00, 45, 'Orthodontics', '🔧');
+('Monthly Orthodontics Braces Adjustment', 'Monthly adjustment visit for orthodontic braces patients. Essential maintenance to ensure proper alignment and comfort.', 800.00, 45, 'Orthodontics', '🔧');
 
 -- Doctor schedule
 INSERT INTO schedules (doctor_id, day_of_week, start_time, end_time, slot_duration) VALUES
