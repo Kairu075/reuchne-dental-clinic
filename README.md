@@ -1,5 +1,6 @@
 # Reuchne Tooth Fairy Clinic — Full-Stack Dental Services Booking & Management System
-
+# View the Deployed Website Here: https://reuchnetoothfairyclinic.free.nf/index.php
+# I used a free web hosting for deployment: https://www.infinityfree.com/
 
 ##  Setup Instructions
 
@@ -205,5 +206,5 @@ VALUES ('Service Name', 'Description', 1500.00, 60, 'Category', '🦷');
 
 ---
 
-© 2025 Reuchne Tooth Fairy Clinic. All rights reserved.
+© 2026 Reuchne Tooth Fairy Clinic. All rights reserved.
 Developed by Kyle Dominic Yap.

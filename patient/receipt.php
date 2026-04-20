@@ -55,8 +55,8 @@ if (!$payment) {
         <div class="receipt-header">
             <div class="receipt-logo"><img src="<?= BASE_URL ?>/assets/images/placeholders/rb-logo-transparent.png" alt="Reuchne Tooth Fairy Clinic Logo" style="height: 6rem; width: auto; margin-bottom: 0.5rem; display: block; margin-left: auto; margin-right: auto;"></div>
             <div class="receipt-title">Reuchne Tooth Fairy Clinic</div>
-            <div style="font-size:0.78rem;color:var(--gray-500);margin-top:0.25rem">123 Smile Street, Your City, Philippines</div>
-            <div style="font-size:0.78rem;color:var(--gray-500)">+63 912 345 6789</div>
+            <div style="font-size:0.78rem;color:var(--gray-500);margin-top:0.25rem">14 Sampaguita Street Banaba, San Mateo Rizal, Philippines</div>
+            <div style="font-size:0.78rem;color:var(--gray-500)">+63 994 173 1251</div>
             <div style="margin-top:1rem;background:var(--pink-50);padding:0.6rem 1rem;border-radius:50px;display:inline-block">
                 <div style="font-size:0.7rem;color:var(--gray-500);letter-spacing:0.1em;text-transform:uppercase">Receipt Number</div>
                 <div style="font-weight:700;color:var(--pink-600)">RTC-<?= str_pad($pay_id,6,'0',STR_PAD_LEFT) ?></div>

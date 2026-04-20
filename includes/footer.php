@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© <?= date('Y') ?> © 2025 Reuchne Tooth Fairy Clinic. All rights reserved. Developed by Kyle Dominic Yap.<span style="color:var(--pink-400)">♥</span></p>
+            <p>© <?= date('Y') ?> © 2025 Reuchne Tooth Fairy Clinic. Disclaimer: This website is a personal project created for demonstration and educational purposes as a dental clinic booking and management system. Developed by Kyle Dominic Yap.<span style="color:var(--pink-400)">♥</span></p>
         </div>
     </footer>
 
