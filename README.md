@@ -92,24 +92,6 @@ reuchne-clinic/
     ├── doctor/
     └── receipts/
 ```
-
----
-
-## 🎨 Customization
-
-### Change Clinic Name
-Search and replace `Reuchne Tooth Fairy Clinic` across all files.
-
-### Change Colors
-Edit CSS variables in `assets/css/main.css`:
-```css
-:root {
-  --pink-500: #f04e7d;   /* Primary accent */
-  --pink-600: #dc3060;   /* Darker accent */
-  /* ... */
-}
-```
-
 ### Change Doctor Info
 Update the `doctor_profiles` table in MySQL:
 ```sql
