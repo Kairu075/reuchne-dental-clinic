@@ -1,67 +1,7 @@
 # Reuchne Tooth Fairy Clinic — Full-Stack Dental Services Booking & Management System
-# View the Deployed Website Here: https://reuchnetoothfairyclinic.free.nf/index.php
-# I used a free web hosting for deployment: https://www.infinityfree.com/
+ View the Deployed Website Here: https://reuchnetoothfairyclinic.free.nf/index.php
+ I used a free web hosting for deployment: https://www.infinityfree.com/
 
-##  Setup Instructions
-
-### 1. Requirements
-- PHP 7.4+ (PHP 8.x recommended)
-- MySQL 5.7+ or MariaDB 10.3+
-- Apache (with mod_rewrite enabled) or Nginx
-- XAMPP / WAMP / LAMP / MAMP (for local development)
-
-### 2. Installation
-
-**Step 1 — Clone / Copy Files**
-Place the `reuchne-clinic` folder inside your web server root:
-- XAMPP: `C:/xampp/htdocs/reuchne-clinic`
-- WAMP: `C:/wamp64/www/reuchne-clinic`
-- Linux/Mac: `/var/www/html/reuchne-clinic`
-
-**Step 2 — Create Database**
-Open phpMyAdmin or your MySQL client and run:
-```sql
-SOURCE /path/to/reuchne-clinic/database.sql
-```
-Or copy-paste the full contents of `database.sql` into your SQL editor.
-
-**Step 3 — Configure Database Connection**
-Edit `includes/config.php`:
-```php
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');        
-define('DB_PASS', '');            
-define('DB_NAME', 'reuchne_clinic');
-define('BASE_URL', 'http://localhost/reuchne-clinic');
-```
-
-**Step 4 — Add Your Logo**
-Replace the placeholder at:
-```
-assets/images/placeholders/logo.png
-```
-Recommended size: **200×80px** (PNG with transparent background)
-
-**Step 5 — Add Clinic & Doctor Photos**
-Place images in `assets/images/placeholders/`:
-- `clinic-1.jpg` — Hero carousel image 1
-- `clinic-2.jpg` — Hero carousel image 2
-- `clinic-3.jpg` — Hero carousel image 3
-- `doctor-hero.jpg` — Doctor carousel image
-- `doctor-main.jpg` — Doctor profile main photo
-- `doctor-2.jpg` to `doctor-4.jpg` — Doctor gallery thumbnails
-
-Recommended: **1920×1080px** for carousel, **600×750px** for doctor photos.
-
-**Step 6 — File Permissions**
-```bash
-chmod 755 uploads/
-chmod 755 uploads/doctor/
-chmod 755 uploads/receipts/
-```
-
-**Step 7 — Launch**
-Visit: `http://localhost/reuchne-clinic`
 
 ---
 
@@ -206,5 +146,5 @@ VALUES ('Service Name', 'Description', 1500.00, 60, 'Category', '🦷');
 
 ---
 
-© 2026 Reuchne Tooth Fairy Clinic. All rights reserved.
+© 2026 Reuchne Tooth Fairy Clinic
 Developed by Kyle Dominic Yap.
